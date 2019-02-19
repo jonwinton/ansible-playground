@@ -1,0 +1,13 @@
+---
+
+- name: run the playbook tasks against the docker container
+  hosts: localhost
+  remote_user: user
+  become: true
+  tasks:
+    - name: upgrade all packages
+      yum: name=* state=latest
+    # - name: Install Python
+    #   yum:
+    #     name: python
+    #     state: removed
