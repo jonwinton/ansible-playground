@@ -1,5 +1,7 @@
 # Ansible Playground
 
+> Execute Ansible commands/playbooks against a Docker container
+
 Setup thanks to: https://rogerwelin.github.io/ansible/docker/2016/07/04/testing-ansible-playbooks-with-docker.html
 
 This is just a simple way to play with Ansible locally.
